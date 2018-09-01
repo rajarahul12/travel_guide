@@ -47,7 +47,7 @@ h1 {
 
 @keyframes anim {
   0% {
-    transform: translateX(-100%);
+    transform: translateX(+100%);
   }
   100% {
     transform: translateX(0);

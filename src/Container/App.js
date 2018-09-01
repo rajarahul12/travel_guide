@@ -8,6 +8,7 @@ import Display from "../Components/Display/Display";
 import About from "../Components/About/About";
 import OurTeam from "../Components/OurTeam/OurTeam";
 import Contact from "../Components/Contact/Contact";
+import MapContainer from "../Components/Map/Map";
 import "./App.css";
 class App extends Component {
   constructor() {
@@ -46,7 +47,7 @@ class App extends Component {
             <Home onRouteChange={this.onRouteChange} />
           </div>
         ) : this.state.route === "travel" ? (
-          <h1>Travel</h1>
+          <MapContainer />
         ) : this.state.route === "search" ? (
           <Search
             getFlightData={this.getFlightData}

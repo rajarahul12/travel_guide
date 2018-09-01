@@ -2,13 +2,16 @@
   "name": "travel_guide",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://rajarahul12.github.io/travel_guide",
   "dependencies": {
     "@mobiscroll/react": "https://npm.mobiscroll.com/@mobiscroll/react-trial/-/react-trial-4.3.2.tgz",
+    "gh-pages": "^1.2.0",
     "google-maps-react": "^2.0.2",
     "mdbreact": "^4.7.0",
     "react": "^16.4.2",
     "react-center": "^1.1.1",
     "react-dom": "^16.4.2",
+    "react-google-maps": "^9.4.5",
     "react-particles-js": "^2.3.0",
     "react-scripts": "1.1.5",
     "react-tilt": "^0.1.4",
@@ -16,6 +19,8 @@
     "tachyons": "^4.11.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",

@@ -22,11 +22,17 @@ export default class OurTeam extends Component {
           </div>
           <div className="nikhil">
             <img className="profiles" src={require("./pic03.jpg")} alt="" />
-            <h1>Nikhil JSK</h1>
+            <div className="profile_des">
+              <h1>Nikhil JSK</h1>
+              <p>FrontEnd Developer</p>
+            </div>
           </div>
           <div className="lokesh">
             <img className="profiles" src={require("./pic04.jpg")} alt="" />
-            <h1>Lokesh Varma</h1>
+            <div className="profile_des">
+              <h1>Lokesh Varma</h1>
+              <p>Data Analyst</p>
+            </div>
           </div>
         </div>
       </div>

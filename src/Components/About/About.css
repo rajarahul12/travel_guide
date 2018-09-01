@@ -1,0 +1,36 @@
+.img_adj {
+  position: fixed;
+  z-index: -1;
+  opacity: 0.65;
+}
+
+.flex_adj {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  /* position: fixed; */
+  margin-top: 100px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.anim {
+  animation: anim 1s ease-out 0s 1;
+}
+
+@keyframes anim {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.mar-adjust {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

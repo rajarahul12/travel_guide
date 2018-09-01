@@ -1,12 +1,14 @@
 import React, { Component } from "react";
 import "tachyons";
 import "./Display.css";
+
 import Card from "../Card/Card";
 var ind_min = 999999;
 var vis_min = 999999;
 var jet_min = 999999;
 var air_min = 999999;
 var arr = [0, 1, 2, 3];
+
 export default class Display extends Component {
   render() {
     // console.log(this.props);

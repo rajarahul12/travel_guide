@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import "./Card.css";
+import data_temp from "./Results.json";
+
 export default class Card extends Component {
   render() {
     const { flight } = this.props;
@@ -22,7 +24,6 @@ export default class Card extends Component {
             {flight.origin}
           </p>
           <p>Fare : {flight.fare.grossamount}</p>
-          <p>CabinClass : {flight.CabinClass}</p>
           <p>
             Departure Date:
             {flight.DepartureTime.slice(0, 10)}
@@ -32,8 +33,12 @@ export default class Card extends Component {
             {flight.airline}
           </p>
           <p>
-            Flight No:
-            {flight.flightno}
+            Est. Dept. Delay:
+            {data_temp["DEPARTURE_DELAY"][0]}
+          </p>
+          <p>
+            Est. Arrv. Delay:
+            {data_temp["ARRIVAL_DELAY"][0]}
           </p>
         </div>
       </div>

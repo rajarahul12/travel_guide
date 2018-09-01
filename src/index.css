@@ -1,0 +1,30 @@
+@font-face {
+  font-family: leixo;
+  src: url("LEIXO-DEMO.ttf");
+}
+
+@font-face {
+  font-family: rustico;
+  src: url("Rustico-Regular.otf");
+}
+
+@font-face {
+  font-family: clasic;
+  src: url("Belleza-Regular.ttf");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: clasic;
+  font-weight: 700;
+  /* background: linear-gradient(89deg, #ff5edf 0%, #04c8de 100%); */
+}
+.flexadj,
+.example_e {
+  font-family: leixo;
+}
+.head_main {
+  font-family: rustico;
+}

@@ -1,0 +1,14 @@
+.flexadj {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.nav_margin {
+  margin-left: 12px;
+  margin-right: 12px;
+  padding: 7px;
+}

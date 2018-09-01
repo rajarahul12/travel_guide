@@ -5,9 +5,15 @@
   "dependencies": {
     "@mobiscroll/react": "https://npm.mobiscroll.com/@mobiscroll/react-trial/-/react-trial-4.3.2.tgz",
     "google-maps-react": "^2.0.2",
+    "mdbreact": "^4.7.0",
     "react": "^16.4.2",
+    "react-center": "^1.1.1",
     "react-dom": "^16.4.2",
-    "react-scripts": "1.1.5"
+    "react-particles-js": "^2.3.0",
+    "react-scripts": "1.1.5",
+    "react-tilt": "^0.1.4",
+    "sort-json-array": "^0.1.7",
+    "tachyons": "^4.11.1"
   },
   "scripts": {
     "start": "react-scripts start",

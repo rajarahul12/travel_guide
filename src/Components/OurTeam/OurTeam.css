@@ -1,0 +1,55 @@
+.flex-adjs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.anil,
+.rahul,
+.nikhil,
+.lokesh {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+.anil,
+.nikhil {
+  flex-direction: row;
+}
+
+.rahul,
+.lokesh {
+  flex-direction: row-reverse;
+  background-color: #3498db;
+}
+
+.profiles {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid grey;
+}
+
+h2 {
+  text-align: center;
+}
+
+h1 {
+  padding-top: 100px;
+  /* padding-bottom: 50px; */
+}
+
+.anim {
+  animation: anim 1s ease-out 0s 1;
+}
+
+@keyframes anim {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
